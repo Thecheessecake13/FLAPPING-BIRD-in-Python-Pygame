@@ -1,10 +1,9 @@
 import pygame
 from sys import exit
 import random
-#import
+
 
 pygame.init()
-#fps = 60
 
 
 screen = pygame.display.set_mode((551, 720))
@@ -266,10 +265,4 @@ def menu():
 
 menu()
 
-# running = True
-# while running:
-#   screen.fill((0, 0, 0))
-#  screen.blit(bgImg, (0, 0))  # draw bg
-# for event in pygame.event.get():
-#    if event.type == pygame.QUIT:
-#       running = False
+
